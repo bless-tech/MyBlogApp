@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bg_image{
+  background-image: url('./woman2.png');
+  background-size: cover;
+  height: 600px;
+  color: #f5f5f5;
+}
+
+.abtimage{
+  background-image: url('./ab1.jpg');
+  background-size: cover;
+  height: 500px;
+  color: #f5f5f5
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+  align-content: center;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #bd6161;
+  min-width: 160px;
+  align-content: center;
+  border: 20px solid #fcfdfcfa;
+  padding: 12px 16px,
+  
+}
+
+.dropdown:hover .dropdowncontent {
+  display: block;
+}
+
+.cimage{
+  background-image: url('./ab1.jpg');
+  background-size: cover;
+  height: 500px;
+  color: #f5f5f5
+}
+
+.box{
+  border: 20px solid #fcfdfcfa;
+  padding: 9px;
+  margin: 5px;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 28px;
+  align-content: center;
+}
+.center{
+margin: 50px 0px 0px 300px
+}
+
+.home{
+  text-align: center;
+}
+
+.align{
+  align-content: right;
+}
+
+.horizontal 
+li {
+    float: left;
+  }
+
+    a {display: block;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+   ul {background-color: #2b1a07;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
